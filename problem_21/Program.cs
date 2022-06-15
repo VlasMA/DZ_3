@@ -12,7 +12,7 @@ int Razn (int a, int b) // Фун-я на разность
     return a - b;
 }
 
-int Cube (int a) // Фун-я на куб
+int Quasro (int a) // Фун-я на куб
 {
     return a * a;
 }
@@ -29,5 +29,5 @@ int lineX = Razn(x2,x1);
 int lineY = Razn(y2,y1);
 int lineZ = Razn(z2,z1);
 
-Console.WriteLine(Math.Sqrt(Cube(lineX) + Cube(lineY) + Cube(lineZ)));
+Console.WriteLine(Math.Sqrt(Quasro(lineX) + Quasro(lineY) + Quasro(lineZ)));
 
